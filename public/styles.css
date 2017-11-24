@@ -1,5 +1,10 @@
 
 
+.container {
+	margin-top: 15em;
+}
+
+
 .box {
 	border:5px black solid;
 
@@ -8,6 +13,11 @@
 
 	width: 150px;
 	height: 150px;
+
+	max-width: 150px;
+	min-width: 150px;
+	max-height: 150px;
+	min-height: 150px;
 
 	font-size: 100px;
 	text-align: center;
